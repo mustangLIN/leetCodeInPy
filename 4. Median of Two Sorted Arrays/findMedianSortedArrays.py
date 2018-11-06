@@ -18,6 +18,7 @@ class Solution:
         # need nums2[j-1] < nums1[i], L2 < R1
         m = len(nums1)
         n = len(nums2)
+        # Integer division symbol //
         totalLen_half = (m + n + 1) // 2
         # Searching at [n1_L, n1_R], i cut at middle
         n1_L = 0
