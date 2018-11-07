@@ -9,7 +9,7 @@ class Solution:
         ans = 0
         cLast = 0
         for c in s:
-            ans += symbol[c]            
+            ans += symbol[c]
             if cLast < symbol[c]:
                 ans = ans - (cLast * 2)
             
