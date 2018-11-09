@@ -8,7 +8,7 @@ class Solution:
         if nums == None or len(nums) < 3:
             return []
 
-        nums = sorted(nums)        
+        nums = sorted(nums)
         ans = nums[0] + nums[1] + nums[-1]
         min_gap =max((nums[0] + nums[1] + nums[-1]), target)  - min((nums[0] + nums[1] + nums[-1]), target)
         for i in range(len(nums) - 2):
