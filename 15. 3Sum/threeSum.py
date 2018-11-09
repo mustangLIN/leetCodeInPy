@@ -7,7 +7,7 @@ class Solution:
         if nums == None or len(nums) < 3:
             return []
 
-        nums=sorted(nums)        
+        nums=sorted(nums)
         # all positive or all negative, no ans
         if nums[0] > 0 or nums[-1] < 0:
             return []
