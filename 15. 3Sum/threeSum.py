@@ -30,7 +30,7 @@ class Solution:
                     ans.append([nums[i], nums[left], nums[right]])
                     # continue find another ans
                     right -= 1
-                    while left < right and nums[right] == nums[right+1]:
+                    while left < right and nums[right] == nums[right + 1]:
                         right -= 1
                     while left < right and nums[left] == nums[left - 1]:
                         left += 1
