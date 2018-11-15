@@ -24,7 +24,7 @@ class Solution:
         second = ans
         explore = ans
         while first != None and first.next != None:
-            # first at 1, first.next.next == 2.next. 2.next is posittion 3  
+            # first at 1, first.next.next == 2.next, 2.next is posittion 3  
             explore = first.next.next
             # 2.next = posittion 1
             first.next.next = first
