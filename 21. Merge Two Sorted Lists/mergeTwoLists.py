@@ -23,6 +23,7 @@ class Solution:
             else:
                 result.next = l2
                 l2 = l2.next
+            
             result = result.next
         
         if l1 != None:
