@@ -20,7 +20,7 @@ class Solution:
             # check c is left Parentheses, put in stack, wait couple
             if c in dict.keys():
                 stack.append(c)
-            # c is right, couple couple
+            # c is right, is couple
             elif len(stack) > 0 and c == dict[stack[-1]]:
                     del stack[-1]
             # c is right, stack is empty nothing to couple, or couple fail
